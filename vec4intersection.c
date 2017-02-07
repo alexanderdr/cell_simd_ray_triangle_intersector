@@ -57,7 +57,7 @@ int cast4(Triangle* _tri, Ray* r,Tri_4 tri){
 		//puts("Joy");                         //even though the branch is never taken with "real" objects
 		return -1;                           //The compiler is strange-- this probably causes dual-issueing
 	}
-	//if(a==0){
+	//if(a==0){ //scalar version of above statement
 	//	return -1;
 	//}
 	
